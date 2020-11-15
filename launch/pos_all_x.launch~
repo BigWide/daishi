@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="oxford_gps_eth" type="daishi_4_30.py" name="daishi_4_30"/>
+  <node pkg="oxford_gps_eth" type="trans.py" name="trans"/>
+</launch>

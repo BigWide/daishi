@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="daishi" type="daishi_4_30.py" name="daishi_4_30"/>
+  <node pkg="daishi" type="trans.py" name="trans"/>
+</launch>
